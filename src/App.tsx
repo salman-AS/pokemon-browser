@@ -5,7 +5,7 @@ import PokemonDetailsPage from './pages/PokemonDetailsPage';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/pokemon-browser">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/pokemon/:name" element={<PokemonDetailsPage />} />
