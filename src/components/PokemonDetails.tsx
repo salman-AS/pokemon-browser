@@ -1,4 +1,3 @@
-import { memo } from "react";
 import type { PokemonDetails as PokemonDetailsType } from "../types/pokemon";
 import "./PokemonDetails.css";
 
@@ -87,5 +86,5 @@ function PokemonDetails({ pokemon }: Readonly<PokemonDetailsProps>) {
 }
 
 // Memoize the component to prevent unnecessary re-renders
-export default memo(PokemonDetails);
+export default PokemonDetails;
 
