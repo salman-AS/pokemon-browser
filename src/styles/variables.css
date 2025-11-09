@@ -1,0 +1,91 @@
+:root {
+  /* Color Palette */
+  --primary: #5C6BC0;
+  --primary-light: #8E99F3;
+  --primary-dark: #26418F;
+  --surface: #FFFFFF;
+  --background: #F8F9FA;
+  --text-primary: #2C3E50;
+  --text-secondary: #5E6D7A;
+  --text-light: #90A4AE;
+  --error: #EF5350;
+  --success: #66BB6A;
+
+  /* Pokemon Type Colors */
+  --type-normal: #A8A878;
+  --type-fire: #F08030;
+  --type-water: #6890F0;
+  --type-electric: #F8D030;
+  --type-grass: #78C850;
+  --type-ice: #98D8D8;
+  --type-fighting: #C03028;
+  --type-poison: #A040A0;
+  --type-ground: #E0C068;
+  --type-flying: #A890F0;
+  --type-psychic: #F85888;
+  --type-bug: #A8B820;
+  --type-rock: #B8A038;
+  --type-ghost: #705898;
+  --type-dragon: #7038F8;
+  --type-dark: #705848;
+  --type-steel: #B8B8D0;
+  --type-fairy: #EE99AC;
+
+  /* Elevations */
+  --shadow-sm: 0 2px 4px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.07);
+  --shadow-lg: 0 10px 15px rgba(0,0,0,0.1);
+
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-slow: 350ms ease;
+
+  /* Typography */
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  
+  /* Layout */
+  --container-width: 1200px;
+  --card-width: 220px;
+}
+
+/* Responsive overrides */
+@media (max-width: 768px) {
+  :root {
+    --container-width: 720px;
+    --card-width: 180px;
+    --font-size-lg: 1rem;
+    --font-size-xl: 1.125rem;
+    --spacing-lg: 1rem;
+    --spacing-xl: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --container-width: 100%;
+    --card-width: 140px;
+    --font-size-2xl: 1.25rem;
+    --font-size-xl: 1rem;
+    --font-size-lg: 0.95rem;
+    --spacing-md: 0.75rem;
+    --spacing-lg: 1rem;
+  }
+}
